@@ -1,22 +1,20 @@
 {
-  "name": "cloudflare_remote_mcp",
+  "name": "cloudflare_remote_mcp_auth",
   "version": "1.0.0",
-  "description": "- https://developers.cloudflare.com/agents/guides/remote-mcp-server/",
+  "description": "- **Cloudflare Docs:** https://developers.cloudflare.com/agents/guides/remote-mcp-server/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/weyseing/cloudflare_remote_mcp.git"
+    "url": "git+https://github.com/weyseing/cloudflare_remote_mcp_auth.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/weyseing/cloudflare_remote_mcp/issues"
+    "url": "https://github.com/weyseing/cloudflare_remote_mcp_auth/issues"
   },
-  "homepage": "https://github.com/weyseing/cloudflare_remote_mcp#readme",
-  "dependencies": {
-    "@modelcontextprotocol/inspector": "^0.11.0"
-  }
+  "homepage": "https://github.com/weyseing/cloudflare_remote_mcp_auth#readme"
 }
