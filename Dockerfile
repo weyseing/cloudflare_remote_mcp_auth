@@ -1,7 +1,4 @@
-FROM node:22-alpine
-
-# install packages
-RUN apk add bash  
+FROM node:lts 
 
 # working dir
 WORKDIR /usr/src/app
