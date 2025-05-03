@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/weyseing/cloudflare_remote_mcp/issues"
   },
-  "homepage": "https://github.com/weyseing/cloudflare_remote_mcp#readme"
+  "homepage": "https://github.com/weyseing/cloudflare_remote_mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/inspector": "^0.11.0"
+  }
 }
