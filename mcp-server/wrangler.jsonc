@@ -6,6 +6,7 @@
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "mcp-server",
 	"main": "src/index.ts",
+	"account_id": "95437c835139b228336df1913750ad6e",
 	"compatibility_date": "2025-03-10",
 	"compatibility_flags": [
 		"nodejs_compat"
