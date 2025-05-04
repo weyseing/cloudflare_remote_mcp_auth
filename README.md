@@ -94,3 +94,9 @@
     > npx wrangler secret put COOKIE_ENCRYPTION_KEY
     > ```
 - Ready to test via MCP Inspector
+
+# Troubleshooting
+## Authorization error: Error: Token exchange failed: HTTP 401
+- **Problem:** When `mcp-remote https://<CLOUDFLARE_WORKER_URL>/sse`, get token exchange error after authorize.
+- **Solution:** Remove cached OAuth state
+    > `Remove-Item -Recurse -Force $HOME\.mcp-auth\`
